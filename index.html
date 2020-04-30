@@ -1,0 +1,224 @@
+<HTML>
+<HEADER>
+	<TITLE> RO PHONE - BWH </TITLE>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+</HEADER>
+<style>
+		    body {
+                font-family: Helvetica, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica; 
+                font-size: 14px;
+                margin:0px;
+                -webkit-user-select: none;
+		    }
+		    a { color:#0091FF; font-weight: bold;}
+		    div { border: 0px solid red }
+		    div.name { width:200px; float:left; color:#000 }
+		    div.number { margin-left:auto; margin-right:0px; color:#0091FF; width:120px; text-align:right; font-weight:bold;}
+		    a { text-decoration:none; font-size: 14px;}
+		    div.row { display:block; padding:4px; border-bottom: 1px solid #ddd; }
+		    div.header { background-color: #eee; font-weight: bolder; padding-left: 8px;border-bottom: 1px solid #ddd;}
+		    div.footer a { font-size: 12px; }
+		    div.footer { background-color: #eee; text-align: center; padding:8px; font-size: 17px; }
+		    div.footer a { font-size: 12px; }
+		    div.row:active { background-color:#ddd; }
+		    img.icon { width:14px; }
+		    span.jones { color:#4e387e; font-weight: bold; }
+		    a.comment { color:#fff; font-size: smaller; background-color:#bbb; border-radius:14px; padding:0 8px 2px 8px;}
+		    span.floor { display:inline-block; width:22px; height:22px; color:#fff; background-color:#bbb; border-radius:20px; text-align: center; }
+		    input{padding:0px;margin:0px;border:0px;display:inline-block;webkit-appearance:none;font-size:14px;width:100px;border-radius:0px;color:#0091FF; text-align:right; font-weight:bold;background-color:transparent;}
+		    input:invalid{background-color:#fdd;}
+</style>
+<script>
+        window.addEventListener('load', function() {
+            FastClick.attach(document.body);
+        }, false);
+        
+        function tryDialExtension(event) {
+            var ext = document.getElementById('ext').value.replace(/\D/g, '');
+            if(ext.length == 5) location.href='tel:6177325500,2' + ext + '#';
+            else if(ext == '0') location.href='tel:6177325500,0#';
+        }
+        
+   		</script>
+<BODY>
+<div class="header">BWH/DFCI</div>
+
+<div class="row">
+		<div class="name" onclick="location.href='tel:6177325500';"><img src="BWH_Tight.png" class="icon"> Dial Extension (617-73...)</div>
+    	<div class="number"><input pattern="\d*" maxlength="5" id="ext" placeholder="Ext #" onkeyup="tryDialExtension(event);" autocomplete="off" /></div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177325500';">
+		<div class="name"><img src="BWH_Tight.png" class="icon"> BWH Main Line</div>
+    	<div class="number">25500</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176323000';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> DFCI Main Line</div>
+    	<div class="number">23000</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177325636';">
+		<div class="name"> <img src="Cross_Tight.png" class="icon"> BWH Emergency Dept</div>
+    	<div class="number">25636</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177326922';">
+		<div class="name"> <img src="Pill_Tight.png" class="icon"> BWH Outpatient Pharmacy </div>
+    	<div class="number">26922</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177326565';">
+		<div class="name"> <img src="Security_Tight.png" class="icon"> Security</div>
+    	<div class="number">26565</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177325927';">
+		<div class="name"> <img src="Computer_Tight.png" class="icon"> IT Help Desk </div>
+    	<div class="number">25927</div>
+	</div>
+
+<div class="header">Radiation Oncology Department</div>
+
+<div class="row" onclick="location.href='tel:6177326310';">
+		<div class="name"><img src="BWH_Tight.png" class="icon"> BWH Front Desk</div>
+    	<div class="number">26310</div>
+	</div>
+	
+<div class="row" onclick="location.href='tel:6177326231';">
+		<div class="name"><img src="Nursing_Tight.png" class="icon"> BWH Nursing Station</div>
+    	<div class="number">26231</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6175259411';">
+		<div class="name"><img src="Linac_Tight.png" class="icon"> BWH Treatment Desk</div>
+    	<div class="number">59411</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6175257982';">
+		<div class="name"><img src="Med_Tight.png" class="icon"> BWH Recovery Room</div>
+    	<div class="number">57982</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6176323591';">
+		<div class="name"><img src="DFCI_Tight.png" class="icon"> DFCI Front Desk</div>
+    	<div class="number">23591</div>
+	</div>
+
+
+<div class="header">Machines and Sims</div>
+
+<div class="row" onclick="location.href='tel:6177326355';">
+		<div class="name"><img src="Yellow_Tight.png" class="icon"> Yellow Machine</div>
+    	<div class="number">26355</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177326355';">
+		<div class="name"><img src="Silver_Tight.png" class="icon"> Silver Machine</div>
+    	<div class="number">26355</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6175256741';">
+		<div class="name"><img src="Blue_Tight.png" class="icon"> Blue Machine</div>
+    	<div class="number">56741</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6175259401';">
+		<div class="name"><img src="Red_Tight.png" class="icon"> Red Machine</div>
+    	<div class="number">59401</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177325098';">
+		<div class="name"><img src="Aqua_Tight.png" class="icon"> Aqua Machine</div>
+    	<div class="number">25098</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177326353';">
+		<div class="name"><img src="Orange_Tight.png" class="icon"> Orange Machine</div>
+    	<div class="number">26353</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6175257905';">
+		<div class="name"><img src="HDR_Tight.png" class="icon"> HDR Machine</div>
+    	<div class="number">57905</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177323236';">
+		<div class="name"><img src="Purple_Tight.png" class="icon"> Purple Machine</div>
+    	<div class="number">23236</div>
+	</div>
+
+
+<div class="row" onclick="location.href='tel:6177324191';">
+		<div class="name"><img src="Pink_Tight.png" class="icon"> Pink Machine</div>
+    	<div class="number">24191</div>
+	</div>
+
+
+<div class="row" onclick="location.href='tel:6175829108';">
+		<div class="name"><img src="Green_Tight.png" class="icon"> Green Machine</div>
+    	<div class="number">29108</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177328660';">
+		<div class="name"><img src="1_Tight.png" class="icon"> Sim 1</div>
+    	<div class="number">28660</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6175259428';">
+		<div class="name"><img src="3_Tight.png" class="icon"> Sim 3</div>
+    	<div class="number">59428</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177328427';">
+		<div class="name"><img src="Linac_Tight.png" class="icon"> Sim Scheduler (Lisette)</div>
+    	<div class="number">28427</div>
+	</div>
+
+<div class="header">Reading Rooms</div>
+
+<div class="row" onclick="location.href='tel:6177328592';">
+		<div class="name"><img src="Cross_Tight.png" class="icon"> ED</div>
+    	<div class="number">28592</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177327237';">
+		<div class="name"><img src="Brain_Tight.jpg" class="icon"> Neuro</div>
+    	<div class="number">27237</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177328476';">
+		<div class="name"><img src="Lung_Tight.png" class="icon"> Thoracic</div>
+    	<div class="number">28476</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177327239';">
+		<div class="name"><img src="Abdomen_Tight.png" class="icon"> Abdominal</div>
+    	<div class="number">27239</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177328539';">
+		<div class="name"><img src="Bone_Tight.png" class="icon"> Musculoskeletal</div>
+    	<div class="number">28539</div>
+	</div>
+
+<div class="row" onclick="location.href='tel:6177325118';">
+		<div class="name"><img src="Atom_Tight.png" class="icon"> Nuclear/PET</div>
+    	<div class="number">25118</div>
+	</div>
+
+<div class="footer">
+	
+	<a href="mailto:Mike&lt;michael.g.milligan@gmail.com&gt;?subject=BWH RO%20Phone%20Idea">💌 Message Mike With Suggestions </a>
+	&nbsp;
+
+</BODY>
+
+
+</HTML>
